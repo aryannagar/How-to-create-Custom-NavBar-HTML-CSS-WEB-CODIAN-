@@ -1,0 +1,13 @@
+WEB CODIAN
+
+In this repository you will be going to find the stuff related how you can create an custom navbar 
+using html and css. A navbar is an important element of your website or blog through an attractive
+navbar you can attract more visitors onto your website and make your website to look greate. 
+
+Through this navbar you can upgrade your website onto the next level.
+
+For video tuorial of this repository:
+
+For more interesting and related contents visit our YouTube Channel
+
+WEB CODIAN:https://www.youtube.com/channel/UCvDfMTJRY5y-O35vQCVGWKw

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: sans-serif;
+            height: 100vh;
+            background: linear-gradient(139deg, #00F260 0%, #0575E6 100%);
+        }
+
+        h1{
+            margin: 12.5rem 18.75rem;
+            color: #fff;
+            font-size: 4.0625rem;
+        }
+
+        nav{
+            margin: 12.5rem 6.25rem;
+            text-align: center;
+            background: rgb(36, 36, 36);
+            border-radius: 3.125rem;
+        }
+
+        a{
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            color: #fff;
+            letter-spacing: 1px;
+            margin: 0.9375rem;
+            font-size: 2.1875rem;
+            padding: 0 0 0.625rem;
+        }
+
+        a::after{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            opacity: 0;
+            content: '';
+            transition: all ease 0.3s;
+            transform: translateY(-0.625rem);
+        }
+
+        a:hover::after{
+            opacity: 1;
+            height: 2px;  /* Increase the height of the block here */
+            transform: translateY(0px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Designed By: WEB CODIAN</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</body>
+</html>
